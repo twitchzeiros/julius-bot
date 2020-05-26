@@ -1,0 +1,23 @@
+{
+    "token": "process.env.APP_TOKEN",
+    "debug": true,
+    "prefix": "process.env.APP_TOKEN",
+  
+    "channelWarnId": "process.env.APP_TOKEN",
+    "welcomeChannelId": "process.env.APP_TOKEN",
+  
+    "permissions":{
+        "!warn":[
+            {
+                "type": "role",
+                "value": "process.env.APP_TOKEN"
+            }
+        ],
+        "!clear":[
+            {
+                "type": "permission",
+                "value": "ADMINISTRATOR"
+            }
+        ]
+    }
+  }
